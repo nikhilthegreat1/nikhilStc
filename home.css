@@ -161,7 +161,8 @@
     display: flex;
     /* border: 2px solid rgb(36, 230, 2); */
     flex-direction: column;
-    margin: 60px;
+    margin: 50px;
+    
     width: 266px;
     margin-left: 10px;
     margin-right: 10px;
@@ -182,9 +183,58 @@
     text-decoration: none;
 }
 .name:hover{
-    color: rgb(255, 255, 255);
+    
     background-color: gray;
     color: cyan;
+}
+/* #contact h1{
+    width: 100%;
+    border: 2px solid rgb(14, 88, 227);
+} */
+.bharr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+#contact{
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#contact-box input,
+#contact-box textarea{
+    width:94%;
+    padding: 0.5rem;
+}
+.form-group{
+    padding: 7px;
+    margin: 2px;
+    font-size: 1.2em;
+}
+.btn{
+    background-color: rgb(107, 107, 231);
+    font-size: 27px;
+    margin-left: 122px;
+}
+.btn:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.footer{
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    
+    font-size: 1.3rem;
+    
+    
 }
 
 
