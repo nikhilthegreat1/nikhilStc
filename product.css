@@ -1,0 +1,67 @@
+*{
+    background-color: rgb(199, 249, 249);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 4rem;
+    align-items: center;
+    
+}
+.products{
+    border: 2px solid black;
+    display: flex;
+    margin: 33px;
+    /* padding: 20px; */
+    align-items: center;
+    justify-content: center;
+    height: min-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+/* .pro{
+    display: flex;
+    border: 2px solid rgb(184, 21, 21);
+    height: 20px;
+    padding: 20px;
+    margin: 0%;
+    justify-content: center;
+    
+   
+    
+    
+} */
+#brands{
+    display: flex;
+    /* border: 2px solid rgb(36, 230, 2); */
+    flex-direction: column;
+    margin: 50px;
+    
+    width: 266px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 367px;
+
+    
+    
+    
+    
+}
+.name{
+    display: flex;
+    /* border: 2px solid rgb(14, 88, 227); */
+    
+    justify-content:center;
+    padding: 0px;
+    flex-direction: row;
+    text-decoration: none;
+}
+.name:hover{
+    
+    background-color: gray;
+    color: cyan;
+}

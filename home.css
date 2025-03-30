@@ -11,7 +11,7 @@
   background-color: rgb(59, 68, 126);
   height: 100%;
   width: 100%;
-  z-index: -1;
+  
   position: relative;
   flex-wrap: wrap;
   flex-direction: column;
@@ -48,8 +48,9 @@
   border-radius: 20px;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
-.items:hover{
+#navbar ul li a:hover{
     background-color: black;
     
 
